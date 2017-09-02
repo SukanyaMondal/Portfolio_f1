@@ -1,0 +1,302 @@
+<!Doctype html>
+<html>
+   <head>
+         <title>My Portfolio</title>   
+         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/> 
+         <link rel="text/javascript" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"/>
+         <link href="https://fonts.googleapis.com/css?family=Ruda" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+   
+        <script src="app.js" type="application/javascript">
+  
+         </script>
+    <style>  
+
+    h1 {
+    text-align: center;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #D7FDFE;
+    color: #4C2C8B ;
+    font-family: 'Ruda', sans-serif;
+    font-size: 90px;
+}
+body { 
+    
+    background: url("index.jpg");
+     
+}
+
+.menubutton {
+    background-color: #60A3FA  ; 
+    border:none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    width:200px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.menubutton:hover {
+    background-color: white ;
+    color: #C681FC;
+ }
+ 
+ .imgcontainer{
+         float:left;
+         margin: 0px 0px 0px 100px;
+         border-color: #6403AF;
+         border-width: 2px;
+         border-style: solid;
+ }
+
+ *
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .Container
+{
+    height: 100%;
+}
+
+    .Container:before
+    {
+        content: '';
+        height: 100%;
+        float: right;
+    }
+
+.Header
+{
+    margin-bottom: 15px;
+    
+}
+.Content
+{
+    position: relative;
+    z-index: 1;
+}
+    .Content:after
+    {
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+.Wrapper
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+    .Wrapper > div
+    {
+        height: 100%;
+    }
+
+.RightContent
+{
+    overflow: auto;
+}
+
+.LeftContent
+{
+    float: left;
+    margin-right: 10px;
+}
+
+.Title{
+    color: #154360 ; 
+    font-size: 70px;
+    font-family: 'Saira', sans-serif;
+}
+
+.homeContent{
+     font-size: 60px;
+     font-family: 'Saira', sans-serif;
+}
+
+.Titlecontent{
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+
+}
+
+.contentBorder {
+    width: 80%;
+    height: auto;    
+    padding: 50px;
+    border: 3px dotted #A903F5;
+    margin: 0px 70px 0px 50px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.subbutton {
+    background-color: #45EE9D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.container {
+  position: relative;
+  width: 200px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #9821C7;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body onload="onLoad()">
+    <div class="Container">
+    <div class="Header">
+        <h1>PORTFOLIO</h1>
+    </div>
+     <div class="Content">
+            <div class="Wrapper">
+                <div class="LeftContent">
+    <div class="imgcontainer">
+        
+         <center>
+             <a href="#"><img  alt="picture" src="https://bit.ly/fcc-relaxing-cat" class="img-responsive"></a> 
+          
+    <p ><br/>
+        <a href="#home" class="btn btn-primary menubutton">HOME</a><br/></br>
+        <a href="#about" class="btn btn-primary menubutton">ABOUT</a><br/><br>
+        <a href="#proj" class="btn btn-primary menubutton">PROJECTS</a><br/><br>
+        <a href="#contact" class="btn btn-primary menubutton">CONTACT</a><br/><br>
+   </p>  
+        </center>   
+    </div> 
+   </div>  
+ <div class="RightContent">
+                    <div id="home" class="homeContent contentBorder">
+                        <center><p class="Title">Sukanya Mondal</p></center>
+                        Student<br>
+                        Computer Enthusiast<br>
+                        Programmer<br>
+                    </div>  
+                    <br/><br/> 
+                    <div id="about" class="contentBorder">
+                        <center><p class="Title">-ABOUT ME-</p></center>
+                        <p class="Titlecontent">WELCOME!<br>
+                        I am <b>Sukanya Mondal</b> and I am a Computer Science student. I have passion for web and technology. I want to keep learning and create some cool stuffs of my own.<br>
+                        I have knowledge of:
+                        <ul class="Titlecontent">
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS+</li>
+                        <li>BootStrap</li>
+                        </ul><br></p>
+                    </div>
+                    <br/><br/>
+                    <div id="proj" class="contentBorder">
+                        <center><p class="Title">-PROJECTS-</p></center>
+                        <p class="Titlecontent">Some of the things I have worked on:</p><br>
+                        <div class="container">
+                             <img src="http://static.espreso.tv/uploads/article/2423147/images/im578x383-url68.jpg" alt="Calc" style="width: 200px; height:150px;" class="image img-responsive">
+                             <a href="https://github.com/SukanyaMondal/Sample-console-calculator">
+                             <div class="overlay">
+                                <div class="text">Console<br> Calculator</div>
+                             </div>
+                             </a>
+                        </div>
+                        <div class="container">
+                            <img src="https://www.incimages.com/uploaded_files/image/970x450/software-computer-code-1940x900_35196.jpg" alt="Tribute" style="width: 200px; height:150px;" class="image img-responsive">
+                            <a href="https://sukanyamondal.github.io/Steve-Jobs-Tribute/">
+                            <div class="overlay">
+                               <div class="text">Tribute<br> Page</div>
+                            </div>
+                            </a>
+                       </div>
+                        <br><p class="Titlecontent">More coming soon...</p>
+                    </div>
+                    <br/><br/>
+                    <div id="contact" class="contentBorder">
+                        <center><p class="Title">-GET IN TOUCH-</p></center>
+                        <form action="/Submit your information">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="name">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="name" name="email" placeholder="email address">
+                            <label for="tel">Telephone Number</label>
+                            <input type="tel" id="tel" name="tel" placeholder="phone number">
+                            <label for="message">Message</label>
+                            <input type="text" id="message" name="message" placeholder="message"><br>
+                            <button type="submit" class="subbutton">Submit</button>
+                        </form>
+                    </div>
+                    <br/><br/>
+                </div>
+                <footer class="container-fluid">
+                        <center>Copyright 2017</center>
+                       <p id="timestamp"></p>
+                       </footer> <br>
+            </div>
+        </div>        
+    </div>    
+
+</body>
+</html>
